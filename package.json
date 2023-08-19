@@ -1,0 +1,7 @@
+{
+ "author": "Somebody <sb@earth.com>",
+ "devDependencies": {
+    "typescript": "^4.8.4"
+ }
+
+}
