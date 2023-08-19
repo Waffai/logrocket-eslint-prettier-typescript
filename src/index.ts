@@ -2,8 +2,8 @@
 console.log("  Hello world!");
 export const hello = "world";
 
-async function testFunc() {
-  const a = await Promise.resolve(1);
+function testFunc() {
+  const a = "dsf";
   console.log(a);
 }
 
