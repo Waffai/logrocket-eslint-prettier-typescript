@@ -1,14 +1,20 @@
 {
   "author": "Somebody <sb@earth.com>",
   "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
     "prettier": "3.0.2",
     "typescript": "^4.8.4"
   },
   "main": "src/index.js",
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write src/**/*.ts"
+    "format": "prettier --write src/**/*.ts",
+    "prepare": "husky install"
   },
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "lint-staged": {
+    "*.ts": "prettier --write"
+  }
 }
