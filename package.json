@@ -1,14 +1,14 @@
 {
- "author": "Somebody <sb@earth.com>",
- "devDependencies": {
+  "author": "Somebody <sb@earth.com>",
+  "devDependencies": {
+    "prettier": "3.0.2",
     "typescript": "^4.8.4"
- },
- "main": "src/index.js",
- "scripts": {
-    "build": "tsc"
- }, 
- "version": "1.0.0",
-
- "type": "module"  
-
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "version": "1.0.0",
+  "type": "module"
 }
