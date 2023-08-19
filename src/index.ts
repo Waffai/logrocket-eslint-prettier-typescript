@@ -11,7 +11,7 @@ function greetName(name: string) {
   return `Hello ${name}`;
 }
 
-var test2 = "er";
+const test2 = "er";
 console.log(test2);
 testFunc();
 greetName("world");
