@@ -1,4 +1,4 @@
-type haha = true;
+// type haha = true;
 console.log("  Hello world!");
 export const hello = "world";
 
@@ -10,3 +10,8 @@ async function testFunc() {
 function greetName(name: string) {
   return `Hello ${name}`;
 }
+
+var test2 = "er";
+console.log(test2);
+testFunc();
+greetName("world");
