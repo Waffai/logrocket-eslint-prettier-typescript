@@ -15,3 +15,5 @@ const test2 = "er";
 console.log(test2);
 testFunc();
 greetName("world");
+
+greetName("world2");
