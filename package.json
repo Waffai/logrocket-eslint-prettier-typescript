@@ -2,6 +2,13 @@
  "author": "Somebody <sb@earth.com>",
  "devDependencies": {
     "typescript": "^4.8.4"
- }
+ },
+ "main": "src/index.js",
+ "scripts": {
+    "build": "tsc"
+ }, 
+ "version": "1.0.0",
+
+ "type": "module"
 
 }
